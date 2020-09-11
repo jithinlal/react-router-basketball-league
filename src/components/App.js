@@ -15,7 +15,7 @@ export default function App() {
 			<div>
 				<Navbar />
 
-				<React.Suspense fallack={<Loading />}>
+				<React.Suspense fallback={<Loading />}>
 					<Switch>
 						<Route exact path='/'>
 							<Home />
